@@ -1,0 +1,52 @@
+/*Header*/
+img {
+  max-width: 5%;
+  padding-top: 10px;
+}
+
+#header {
+  text-align: center;
+  font-size: 30px;
+  padding: 25px;
+}
+
+/*Body*/
+#body {
+  text-align: center;
+  font-size: 25px;
+}
+
+/*Form*/
+#form {
+  text-align: center;
+  font-size: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  }
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 25px;
+}
+
+/*Footer*/
+  #flexbox {
+    font-size: 20px;
+  }
+
+#email-item, #unique-item
+{
+display:none;
+}
+
+
+#footer {
+  text-align: center;
+  font-size: 25px;
+  }
