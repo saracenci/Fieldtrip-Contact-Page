@@ -8,12 +8,25 @@ img {
   text-align: center;
   font-size: 30px;
   padding: 25px;
+  font-family: 'Bitter', serif;
 }
+
+#header h1 {
+  color: #c2c2c2;
+  }
 
 /*Body*/
 #body {
   text-align: center;
   font-size: 25px;
+
+}
+
+body
+{
+  margin-right: 15px;
+  margin-left: 15px;
+  font-family: 'Heebo', sans-serif;
 }
 
 /*Form*/
@@ -24,15 +37,36 @@ img {
   margin-right: auto;
   display: block;
   text-align: center;
-  padding: 10px;
+  padding: 10px 0;
+  font-family: 'Bitter', serif;
   }
+
+.form-contact {
+  padding: 10px 0;
+}
+
+.form-contact input
+{
+  max-width:100%;
+}
+
+#submit-btn {
+  border: 6px solid #2efe2d;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0);
+  padding: 25px 35px;
+  font-family: 'Heebo', sans-serif;
+}
 
 ul {
   list-style: none;
+  padding: 0;
+  font-family: 'Heebo', sans-serif;
 }
 
 li {
   padding: 25px;
+  font-family: 'Heebo', sans-serif;
 }
 
 /*Footer*/
@@ -45,8 +79,68 @@ li {
 display:none;
 }
 
+.container {
+  min-height:100vh;
+  margin-left: 15px;
+  margin-right: 15px;
+}
 
 #footer {
-  text-align: center;
+  text-align: left;
   font-size: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: 'Heebo', sans-serif;
   }
+
+
+  /**************************** RESPONSIVE DATA ****************************/
+
+  /* Extra Small */
+  @media (max-width:767px)
+  {
+body {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#header {
+  text-align: left;
+}
+
+#header h1 {
+  display:inline;
+}
+  }
+
+  /* Small */
+  @media (min-width:768px) and (max-width:991px)
+  {
+    #header {
+      text-align: left;
+    }
+
+    #header h1 {
+      display:inline;
+    }
+  }
+
+  /* Medium */
+  @media (min-width:992px) and (max-width:1199px)
+  {
+
+  }
+
+  /* Large */
+  @media (min-width:1200px)
+  {
+
+  }
+
+  /*XL*/
+  @media (max-width: 2000px)
+  {
+
+  }
+
+  /**************************** END RESPONSIVE DATA ****************************/
